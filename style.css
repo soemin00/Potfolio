@@ -1,0 +1,75 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Gabarito', cursive;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+.navbar{
+	height: 17vh;
+}
+.navbar-brand{
+	font-size: 2rem;
+	cursor: default;
+	font-weight: bold;
+}
+.nav-item{
+	padding: 0px 20px;
+}
+.nav-link{
+	text-transform: uppercase;
+}
+a:hover{
+	border-bottom: 2px solid black;
+}
+.main{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container{
+	height: 60vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.desc h1{
+	font-size: 48px;
+	font-weight: bold;
+
+}
+.desc p{
+	letter-spacing: 1.2px;
+}
+img{
+	width: 200px;
+	height: 200px;
+	object-position: center;
+	object-fit: cover;
+	border-radius: 50%
+}
+.desc{
+	padding: 20px;
+}
+.fa-brands{
+	padding-right: 10px;
+	font-size: 25px;
+}
+.skills{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.skills h4{
+	font-weight: bold;
+	padding-right: 50px;
+}
+.skills-icons{
+	display: inline-block;
+}
+.skills-icons .fa-brands{
+	padding: 0 20px;
+}
